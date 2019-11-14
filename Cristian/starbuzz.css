@@ -4,16 +4,21 @@ body {
 }
 h1 {
   color: green;
-  font-family: serif;
-  font-size: 25px;
+  font-family: cursive;
+  font-size: 35px;
 }
 h3 {
   color: saddlebrown;
-font-family: fantasy;
+  font-family: fantasy;
 }
+.tea{
+  color: gray
+}
+.coffe{ color: coral;}
 span {
   color: green
 }
 #special {
   color: brown;
 }
+blockquote { font-family: fantasy;}
