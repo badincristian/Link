@@ -1,8 +1,8 @@
 div.float{
     background-color: maroon;
-    float: right;
+    float: left;
     width: 100px;
-    height: 100px;
+    height: 50px;
     text-align: center;
     
 }
