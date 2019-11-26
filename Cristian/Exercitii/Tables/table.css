@@ -1,0 +1,29 @@
+table{
+    margin: auto;
+    margin-top: 20px;
+    /* padding: 20px; */
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    border-spacing: 0px;    /*spatiul dintre borduri*/
+    border-collapse: collapse; /*aici se lipesc bordurile, se impart nu au bordura separata, ramane bordura tabelului*/
+}
+th{
+    background-color: darkgoldenrod; 
+    border-bottom: 2px solid black;
+    text-align: left; /*am pus padding sa fie aliniat, deoarece se ducea pana in capat, cu padding exista simetrie*/
+    padding: 10px;
+}
+td{
+    /* background-color: silver; */     /*am comentat th-ul pentru a avea efect tr-ul*/
+    border-top: 1px solid black;       /*pentru a scoate liniile dintre coloane */
+    border-bottom:  1px solid black;  /*pentru a scoate liniile dintre coloane */
+    padding: 10px; /* pentru a aerisi tabelul*/
+
+}
+tr:nth-child(even) {         /*rand par, selecteaza toate randurile, se pot folosi si formule sa le selecteze din 2 in 2 (2n)*/
+background-color: blanchedalmond;  /* td-ul este mai specific decat tr-ul, ( comentam td-ul pentru a avea efect tr-ul*/
+}
+tr:nth-child(odd){
+    background-color: palegoldenrod;
+
+}

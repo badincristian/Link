@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="firstName">Name</label>
+        <input type="text" name="firstName" id="name" placeholder="ex. Vasile Carciuma">
+        <!-- placeholder tine loc de text gri( pentru completat) -->
+        <br/> 
+        <label for="remember">Remember me</label>
+        <input type="checkbox" name="remember" id="remember"> 
+        <br/>
+        <label for="woman"> Woman</label>
+        <input type="radio" name="gender" id="woman" value="woman">
+        <label for="man">Man</label>
+        <input type="radio" name="gender" id="man" value="man">
+        <!-- radio pentru a devenii "buton care sare" trebuioe sa aiba acelasi nume -->
+        <br/>
+        <label for="feedback">We care about your oppinion!</label>
+        <textarea name="FeedBack" id="feedback" cols="30" rows="10"></textarea>
+    
+        
+        <br/>
+        <select name="" id="">
+            <option value="buc">Bucuresti</option>
+            <option value="ny">New York</option>
+            <option value="par">Paris</option>
+        </select>
+        <!-- value este ceea ce trimitem noi catre back end -->
+        <br/>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search">
+        <br/>
+        <label for="date">Pick date.</label>
+        <input type="date" name="date" id="date">
+        <br/>
+        <label for="time">Now pick a time!</label>
+        <input type="time" name="time" id="time">
+        <br/>
+        <label for="range">How much?</label>
+        <input type="range" name="range" id="range" min="1" max="100" step="2">
+        <br/>
+        <label for="color">Watch me!</label>
+        <input type="color" name="color" id="color">
+        <br/>
+        <label for="submit"> I am here!!</label>
+        <input type="submit" name="submit" id="submit" value="press me">
+        <!-- textul care apare in buton trebuie pus in value -->
+        
+
+   </form>
+    
+</body>
+</html>

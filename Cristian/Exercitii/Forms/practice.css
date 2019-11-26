@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+/* trebuie facut reset la border box daca punem * selecteaza tot */
+form{
+    background-color: gainsboro;
+    padding: 1em;
+}
+input,select { 
+    margin: 0,5;
+    display: block;
+    padding: 0,5em;
+}
+input[type=text] {
+    width: 95%;
+    border-radius: 10px;
+    /* border-style: none; */
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+}
+input[type=submit] {
+    width: 95%;
+    background-color: rgb(84, 173, 89);
+    color: white;
+    font-size: 1.1em;
+    padding: 0.3em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: tomato;
+/* pentru a schimba culoarea oricarui element unde suntem cu cursorul */
+}
+select{
+    width: 95%;
+/* background-color: thistle; */
+}
