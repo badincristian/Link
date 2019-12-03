@@ -1,0 +1,66 @@
+* {           /*mereu se face asta */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+header{
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+}
+header a {
+    color: rgb(193, 196, 199);
+    text-decoration: none;
+    font-size: 0,8em;
+}
+li{
+    display: inline-block; 
+    padding: 10px;
+
+}
+img{
+    width: 15em;
+    display: inline-block;
+}
+footer{
+    background: rgb(51, 51, 51);
+    color: rgb(246, 246, 248);
+    padding:10px;
+    text-align: center;
+}
+footer p {
+    margin-top: 0.1em;
+}
+article{
+    padding: 2em;
+    text-align: center;
+}
+h1{
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    font-size: 2,5em;
+    margin-bottom: 2em;
+}
+div{
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    vertical-align: top;
+}
+p{
+    padding: 2em;
+}
+input[type="button"] {
+    text-transform: uppercase;
+    background-color: orange;
+    border-radius: 0.8em;
+    padding: 0.3em 0.2em;
+    font-size: 1em;
+    color: white;
+    margin-top: 2.5em;
+
+}

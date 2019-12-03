@@ -14,7 +14,7 @@ th{
     padding: 10px;
 }
 td{
-    /* background-color: silver; */     /*am comentat th-ul pentru a avea efect tr-ul*/
+    /* background-color: silver; */     /*am comentat td-ul pentru a avea efect tr-ul*/
     border-top: 1px solid black;       /*pentru a scoate liniile dintre coloane */
     border-bottom:  1px solid black;  /*pentru a scoate liniile dintre coloane */
     padding: 10px; /* pentru a aerisi tabelul*/
