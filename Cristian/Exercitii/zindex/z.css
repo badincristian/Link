@@ -1,0 +1,25 @@
+div:first-child{
+    background-color: darkgoldenrod;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 20%;
+    left: 20%;
+    opacity: 0.5;
+    /* cu rgba putem controla opacitatea culorii */
+}
+div:nth-child(2){
+    background-color: darkred;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 25%;
+    left: 25%;
+    z-index: -1;
+}
+div:last-child{
+    margin: 200px;
+    position: absolute;
+    /* pozitia este mai specifica decat z-index */
+/* daca nu le setam positie, cele care au pozitie au prioritate, z-index nu trece peste elemente nepozitionate este irgnorat */
+}
