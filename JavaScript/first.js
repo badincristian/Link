@@ -23,3 +23,4 @@ function sayHello() {
     //    alert(message);
     console.log(message);
 }
+//  sa creem un imput tip text cu un buton submit si sa apara un alert cu generatia persoanei respectivedam elementului un id si folosim get element id si are o proprietarea are alrea value
