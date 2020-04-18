@@ -1,0 +1,5 @@
+paralax de poze care trec si cu filtere in css sa facem luminozitate de la 100% si mergem spre 0 sa dispara poza cand trece paralax
+
+sau cu grayscale si cu amination iteration count ease in out sa se miste incet
+
+svg puls facuta chestia aia cu picaturile si din ele sa apara pozele, ele fiind albe si dupa ce se face picatura, ramane poza
